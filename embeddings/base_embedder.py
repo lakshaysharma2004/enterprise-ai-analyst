@@ -2,8 +2,7 @@ class BaseEmbedder:
     """
     Base class for all embedding models.
 
-    Concrete embedders must inherit from this class and implement
-    the embedding logic for converting text into numerical vectors.
+    Concrete embedders must inherit from this class and implement the embedding logic for converting text into numerical vectors.
     """
 
     def __init__(self):
