@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Tests (local only)
+tests/
+
+# Python cache
+__pycache__/
+*.pyc
